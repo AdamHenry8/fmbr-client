@@ -12,6 +12,7 @@ import SubscribeComp from './SubscribeComp/Subscribe';
 import './Main.css';
 import GalleryComp from './GalleryComp/Gallery';
 import NewsItemComp from './NewsItemComp/NewsItem';
+import AdminMainComp from './AdminMain';
 
 function MainComp() {
 
@@ -38,6 +39,9 @@ function MainComp() {
         <Route path="/about" component={AboutComp}></Route>
         <Route path="/gallery" component={GalleryComp}></Route>
         <Route path="/subscribe" component={SubscribeComp}></Route>
+
+        <Route path="/admin" component={AdminMainComp}></Route>
+        
       </Switch>
     </div>
 
