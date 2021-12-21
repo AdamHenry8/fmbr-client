@@ -6,7 +6,9 @@
     font-weight: 200;
     margin-bottom: 12px;
 }
-
+a {
+  color: #000;
+}
 a:hover {
   color: black;
   text-decoration: none;
