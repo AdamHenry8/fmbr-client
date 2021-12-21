@@ -53,7 +53,7 @@ function HomeComp() {
       }
     </div>
 
-    <div id="all_rel_arrow"><p><a href="/releases">see all releases  &rarr; </a></p></div> <br/>
+    <div><p><a href="/releases">see all releases  &rarr; </a></p></div> <br/>
 
     <p className='section_titles'>Latest News</p>
     <div className="news_container">
