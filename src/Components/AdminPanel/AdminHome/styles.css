@@ -1,0 +1,41 @@
+.admin_panel_header {
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.content_box {
+   margin-left: 200px;
+   align-items: center;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(255, 16, 240,0.5);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    
+  }
+
+  /* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+ 
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color:rgb(255, 16, 240,1);
+    color: white;
+  }

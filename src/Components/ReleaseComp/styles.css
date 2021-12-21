@@ -1,0 +1,89 @@
+.component_wrapper {
+    padding-bottom: 3em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image_wrapper {
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+.image_wrapper > img {
+    max-width: 100%;
+}
+
+.pci_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+.pci_box {
+    flex: 33.33%;
+    max-width:33.33%;
+    height: 100px;
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+.pci_box > img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;   
+}
+
+.btn_wrapper {
+    width: 80%;
+    margin-top: 1em;
+    border: 0.5px solid rgb(192, 192, 192);
+}
+
+.btn_wrapper button {
+    width: 100%;
+    background-color: #ffffff; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn_wrapper button:hover {   
+    background-color: #000000; 
+    color: white;  
+}
+
+.info_wrapper {
+    text-align: left;
+    width: 100%;
+}
+
+.info_wrapper > h3 {
+    text-transform: uppercase;
+}
+
+.release_notes_wrapper {
+    width: 85%;
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
+}
+
+
+

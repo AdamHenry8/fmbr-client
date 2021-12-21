@@ -1,0 +1,29 @@
+.about_comp {
+    float: left;
+}
+
+.about_text_wrapper {
+    width: 100%;
+}
+
+.contact_form_wrapper {
+    text-align: left;
+    width: 85%;
+    margin-bottom: 100px;
+}
+
+p {
+    text-align: left;
+}
+
+#contact_form > input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+

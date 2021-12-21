@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Kaku+Gothic+Antique:wght@300;400;900&display=swap');
+
+html,body{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+}
+  
+body {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;   
+    position: relative;
+}
+
+.content-container {
+    flex-grow: 1;
+    margin: 0;
+}
+
+footer {
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: auto;
+    clear: both   
+}
+
+.footer_column {
+    float: left;
+    width: 50%; 
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+}
+
+.footer_column a {
+    padding-left: 2em;
+    color: black;
+    text-decoration: none;
+}
+
+.footer_column a:hover {
+    padding-left: 2em;
+    color: black;
+    text-decoration: underline;
+}
+

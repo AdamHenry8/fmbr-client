@@ -1,0 +1,85 @@
+.admin_panel_comp {
+  padding-top: 25px;
+  width: 95%;
+  margin: auto;
+}
+h2 {
+  text-decoration: underline;
+}
+.admin_panel_table_wrapper {
+    margin-top: 25px;
+    width: 100%;
+}
+.add_item_comp {
+  width: 100%;
+}
+.add_release_form {
+  width: 100%;
+}
+
+.admin_panel_tables {
+    table-layout: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+  
+.admin_panel_tables td, .admin_panel_tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+  
+.admin_panel_tables tr:nth-child(even){background-color: #f2f2f2;}
+  
+.admin_panel_tables tr:hover {background-color: #ddd;}
+  
+.admin_panel_tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+  }
+
+.admin_edit_forms {
+    padding-top: 25px;
+    text-align: left;
+    margin-left: 2rem;
+
+}
+.input-wrapper {
+    border-radius:5px;
+    padding:5px;
+    width: 900px;
+}
+.input-wrapper input[type=text] {
+    width:100%;
+    font-size:14px;
+}
+#edit_release_form > td {
+    width: fit-content;
+}
+.admin_panel_buttons {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.admin_panel_buttons:hover {
+    background-color: #555555;
+    color: white;
+  }

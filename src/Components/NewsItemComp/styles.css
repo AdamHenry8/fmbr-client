@@ -1,0 +1,47 @@
+.component_wrapper {
+    padding-bottom: 3em;
+}
+
+.column {
+    float: left;
+    width: 50%; 
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image_wrapper {
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+.image_wrapper > img {
+    max-width: 100%;
+}
+
+.info_wrapper {
+    text-align: left;
+    width: 100%;
+    
+}
+
+.release_notes_wrapper {
+    width: 85%;
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
+}
+
+.news_headline {
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 8px;  
+  }
+
+
+
