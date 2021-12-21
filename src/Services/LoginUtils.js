@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "http://localhost:9000/api";
+const url =  "https://fmbr-server.herokuapp.com/api";
 
 const getAdmins = () =>
 {
