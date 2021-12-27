@@ -79,7 +79,7 @@ function AddReleaseComp(props) {
           <th> Physical Copy Images &nbsp;  </th>
             <td>
               <div className="input-wrapper">
-              <textarea rows="5" type="text" id="pci" name="pci"  onChange={e => setPciArr(e.target.value.split(","))}/>
+              <textarea required rows="5" type="text" id="pci" name="pci"  onChange={e => setPciArr(e.target.value.split(","))}/>
                 
               </div>
             </td>
