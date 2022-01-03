@@ -1,5 +1,5 @@
 import {useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import utils from '../../Services/NewsUtils';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import './styles.css';
 function NewsComp() {
 
   const [news, setNews] = useState([]);
-  const history = useHistory();
+  // const history = useHistory();
 
   useEffect(() =>{
     const fetchData = async () =>
