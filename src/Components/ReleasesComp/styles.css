@@ -25,6 +25,9 @@ body {
     padding: 0px;
     margin: 0px;   
 }
+.image img {
+    display: block;
+}
 
 .image_img {
     display: block;
