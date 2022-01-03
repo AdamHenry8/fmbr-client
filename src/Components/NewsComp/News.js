@@ -20,9 +20,9 @@ function NewsComp() {
     fetchData();
   }, [])
 
-  const navToNewsItem = (id) => {
-    history.push('/newsItem/'+ id);
-  }
+  // const navToNewsItem = (id) => {
+  //   history.push('/newsItem/'+ id);
+  // }
  
   return (
   <div class="news_container">
