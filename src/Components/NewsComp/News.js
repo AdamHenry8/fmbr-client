@@ -31,11 +31,11 @@ function NewsComp() {
      return <div className="flex_item_wrapper">
                   <Link to={"/newsItem/" + item._id}>
                     <div id="release_card_wrapper" class="image">
-                      <img key={item._id} src={item.image} alt="news_image" class="image_img"></img>
+                      <img key={item._id} src={item.image} alt="news_image" class="image_img" className='news_item_img'></img>
                       <div class="image_overlay">
                           <h4 class="image_title">{item.headline}</h4> 
                           <h4 class="image_title">{item.subheading} </h4> 
-                          <p class="image_description">{item.body}</p>
+                          <p class="image_description" style={{textTransform: 'none', padding: '20px', textAlign: 'center'}}>{item.body}</p>
                       </div>
                     </div>
                   </Link>
