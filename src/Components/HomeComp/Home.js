@@ -2,7 +2,7 @@ import React , {useState, useEffect } from 'react';
 import releaseUtils from '../../Services/ReleaseUtils';
 import newsUtils from '../../Services/NewsUtils';
 import  {Link} from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 import '../ReleasesComp/styles.css'; 
 import './styles.css';
@@ -11,7 +11,7 @@ function HomeComp() {
 
   const [latestReleases, setLatestReleases] = useState([]);
   const [latestNews, setLatestNews] = useState([]);
-  const history = useHistory();
+  // const history = useHistory();
 
   useEffect(() =>{
     async function fetchData()
@@ -27,9 +27,9 @@ function HomeComp() {
     fetchData()  
   }, [])
 
-  const navToNewsItem = (id) => {
-    history.push('/newsItem/'+ id);
-  }
+  // const navToNewsItem = (id) => {
+  //   history.push('/newsItem/'+ id);
+  // }
  
   return (
   <div id="home_comp">
