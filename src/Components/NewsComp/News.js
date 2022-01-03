@@ -30,7 +30,9 @@ function NewsComp() {
                       <div class="image_overlay" style={{height: '390px'}}>
                           <h4 class="image_title">{item.headline}</h4> 
                           <h4 class="image_title">{item.subheading} </h4> 
-                          <p class="image_description" style={{textTransform: 'none', padding: '20px', textAlign: 'center'}}>{item.body}</p>
+                          <p class="image_description" style={{textTransform: 'none', padding: '20px', textAlign: 'center'}}>
+                            {`${item.body.substring(0, 70)}...`}<span className='underlined'>read more</span>
+                          </p>
                       </div>
                     </div>
                   </Link>
