@@ -28,7 +28,7 @@ function NewsComp() {
   <div class="news_container">
     {
     news.map(item => {
-     return <div className="flex_item_wrapper">
+     return <div className="flex_item_wrapper" class="news_item">
                   <Link to={"/newsItem/" + item._id}>
                     <div id="release_card_wrapper" class="image">
                       <img key={item._id} src={item.image} alt="news_image" class="image_img" className='news_item_img'></img>
